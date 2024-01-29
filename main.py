@@ -20,6 +20,31 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Seja bem vindo a ilha de tesouro.")
+print("Seja bem-vindo(a) a ilha de tesouro.")
 print("A sua missão é econtrar o tesouro.")
+print("Você encontra uma estrada, e existe dois caminhos, você gostaria de ir para a esquerda ou direita ?\nDigite 'E' para Esquerda e 'D' para Direita")
 
+caminho_1 = input("")
+
+if caminho_1 == "D":
+    print("Você caiu em um buraco.\nGame Over")
+else:
+    print("Após caminhar, Você encontra um lago e nele tem uma ilha no meio, você quer nadar ou esperar um barco chegar até você ?\nDigite 'N' para nadar e 'E' para esperar")
+
+caminho_2 = input("")
+
+if caminho_2 ==  "N":
+    print("Você foi atacado por um jacaré\nGamer Over")
+else:
+    print("Após atravessar e chegar na ilha no lago, você encontra uma casa com 3 portas. Uma vermelha, uma amarela e uma azul.\nQual cor você escolhe")
+
+caminho_3 = input("")
+
+if caminho_3 == "Vermelha":
+    print("Você caiu em uma armadilha\nGame Over")
+elif caminho_3 == "Azul":
+    print("Você foi comido por bestas\nGame Over")
+elif caminho_3 == "Amarelo":
+    print("Parabéns você ganhou !")
+else:
+    print("Game Over")
