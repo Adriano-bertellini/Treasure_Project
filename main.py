@@ -20,5 +20,6 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+print("Seja bem vindo a ilha de tesouro.")
+print("A sua missão é econtrar o tesouro.")
+
